@@ -7,3 +7,7 @@ nav {
 .navbar-collapse {
   justify-content: center;
 }
+
+.nav {
+  font-size: 1rem;
+}

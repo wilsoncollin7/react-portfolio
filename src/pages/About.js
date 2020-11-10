@@ -1,10 +1,16 @@
 import React from 'react';
+// import components
+import Wrapper from "../components/Wrapper/Wrapper";
+import Row from "../components/Row/Row";
+import Header from "../components/Header/Header";
 
 function About() {
   return (
-    <div>
-      <h1>This is About page</h1>
-    </div>
+    <Wrapper>
+      <Row>
+        <Header title="About"/>
+      </Row>
+    </Wrapper>
   )
 }
 

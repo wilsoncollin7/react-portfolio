@@ -1,10 +1,16 @@
 import React from 'react';
+// import components
+import Wrapper from "../components/Wrapper/Wrapper";
+import Row from "../components/Row/Row";
+import Header from "../components/Header/Header";
 
 function Contact() {
   return (
-    <div>
-      <h1>This is Contact page</h1>
-    </div>
+    <Wrapper>
+      <Row>
+        <Header title="Contact"/>
+      </Row>
+    </Wrapper>
   )
 }
 
