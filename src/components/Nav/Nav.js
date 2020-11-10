@@ -1,35 +1,37 @@
 import React from 'react';
 import Resume from "../../assets/Collin Dean Wilson.pdf"
+// style
+import "./style.css"
 
 function Nav() {
   return (
-    <nav class="navbar navbar-expand-lg">
-        <button class="navbar-toggler" 
+    <nav className="navbar-expand-lg">
+        <button className="navbar-toggler" 
           type="button" 
           data-toggle="collapse" 
-          data-target="#navbarNav" 
-          aria-controls="navbarNav" 
+          data-target=".navbar-collapse" 
+          aria-controls="navbar-collapse" 
           aria-expanded="false" 
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+          <span className="navbar-toggler-icon"><i className="fas fa-bars"></i></span>
         </button>
-        <div class="collapse navbar-collapse">
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/home">HOME</a>
+        <div className="collapse navbar-collapse">
+            <ul className="nav justify-content-center">
+                <li className="nav-item">
+                    <a className="nav-link" href="/home">HOME</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/projects">PROJECTS</a>
+                <li className="nav-item">
+                    <a className="nav-link" href="/projects">PROJECTS</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/about">ABOUT</a>
+                <li className="nav-item">
+                    <a className="nav-link" href="/about">ABOUT</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/contact" >CONTACT</a>
+                <li className="nav-item">
+                    <a className="nav-link" href="/contact" >CONTACT</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href={Resume} target="#" >RESUME</a>
+                <li className="nav-item">
+                    <a className="nav-link" href={Resume} target="#" >RESUME</a>
                 </li>
             </ul>
         </div>
