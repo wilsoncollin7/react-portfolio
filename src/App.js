@@ -9,7 +9,6 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav/Nav";
-import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -24,7 +23,6 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="*" component={NoMatch} />
         </Switch>
-        <Footer />
       </>
     </Router>
   );
