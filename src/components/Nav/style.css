@@ -2,6 +2,7 @@ nav {
   position: absolute;
   left: 0;
   right: 0;
+  z-index: 2;
 }
 
 .navbar-collapse {
@@ -9,5 +10,14 @@ nav {
 }
 
 .nav {
-  font-size: 1rem;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-toggler-icon {
+  color: white;
+  padding: 10px;
 }

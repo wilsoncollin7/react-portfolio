@@ -9,8 +9,8 @@ function Home() {
   return (
     <Wrapper>
       <Row>
-        <Header title="Home"/>
         <BackgroundImage />
+        <Header class="home" title="COLLIN WILSON"/>
       </Row>
     </Wrapper>
   )
