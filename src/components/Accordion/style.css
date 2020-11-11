@@ -1,0 +1,17 @@
+.aboutBtn {
+  font-size: 1.25rem;
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
+}
+
+.aboutItem {
+  font-size: 1.25rem;
+  text-align: justify;
+  margin: auto;
+  width: 60%;
+}
+
+.aboutBtnLast {
+  font-size: 1.25rem;
+  border-bottom: transparent;
+}
