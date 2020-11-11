@@ -11,7 +11,7 @@ import Footer from "../components/Footer/Footer";
 function About() {
   return (
     <>
-      <Wrapper>
+      <Wrapper className="aboutWrapper">
         <Container className="aboutContainer">
           <Header className="about" title="About"/>
           <Accordion />
