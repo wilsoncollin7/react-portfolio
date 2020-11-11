@@ -12,8 +12,10 @@ function Home() {
     <Wrapper>
       <Row>
         <BackgroundImage />
-        <Header class="home" title="COLLIN WILSON"/>
-        <Subheader class="homeSubHeader" title="DESIGNER | MAKER | CREATOR"/>
+        <div className="homeHeaderDiv">
+          <Header class="home" title="COLLIN WILSON"/>
+          <Subheader class="homeSubHeader" title="DESIGNER | MAKER | CREATOR"/>
+        </div>
         <SocialOverlay />
       </Row>
     </Wrapper>
