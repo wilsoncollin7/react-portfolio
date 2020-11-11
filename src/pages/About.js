@@ -3,15 +3,18 @@ import React from 'react';
 import Wrapper from "../components/Wrapper/Wrapper";
 import Row from "../components/Row/Row";
 import Header from "../components/Header/Header";
+import Container from "../components/Container/Container"
 import Footer from "../components/Footer/Footer";
 
 
 function About() {
   return (
     <>
-      <Wrapper className="wrapper aboutWrapper">
+      <Wrapper>
         <Row>
-          <Header className="about" title="About"/>
+          <Container className="aboutContainer">
+            <Header className="about" title="About"/>
+          </Container>
         </Row>
       </Wrapper>
       <Footer />

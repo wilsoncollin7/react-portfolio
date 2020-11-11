@@ -9,7 +9,7 @@ import BackgroundImage from "../components/BackgroundImage/BackgroundImage";
 
 function Home() {
   return (
-    <Wrapper className="wrapper">
+    <Wrapper>
       <Row>
         <BackgroundImage />
         <div className="homeHeaderDiv">
