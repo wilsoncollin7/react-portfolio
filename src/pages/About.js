@@ -9,9 +9,9 @@ import Footer from "../components/Footer/Footer";
 function About() {
   return (
     <>
-      <Wrapper>
+      <Wrapper className="wrapper aboutWrapper">
         <Row>
-          <Header title="About"/>
+          <Header className="about" title="About"/>
         </Row>
       </Wrapper>
       <Footer />

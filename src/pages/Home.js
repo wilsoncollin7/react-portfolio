@@ -9,12 +9,12 @@ import BackgroundImage from "../components/BackgroundImage/BackgroundImage";
 
 function Home() {
   return (
-    <Wrapper>
+    <Wrapper className="wrapper">
       <Row>
         <BackgroundImage />
         <div className="homeHeaderDiv">
-          <Header class="home" title="COLLIN WILSON"/>
-          <Subheader class="homeSubHeader" title="DESIGNER | MAKER | CREATOR"/>
+          <Header className="home" title="COLLIN WILSON"/>
+          <Subheader className="homeSubHeader" title="DESIGNER | MAKER | CREATOR"/>
         </div>
         <SocialOverlay />
       </Row>

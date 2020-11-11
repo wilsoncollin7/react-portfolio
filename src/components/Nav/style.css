@@ -3,6 +3,7 @@ nav {
   left: 0;
   right: 0;
   z-index: 2;
+  background-color: rgba(19, 19, 19, 0.25);
 }
 
 .navbar-collapse {
@@ -15,6 +16,10 @@ nav {
 
 .nav-link {
   color: white;
+}
+
+.nav-link:hover {
+  color: rgb(0, 195, 255);
 }
 
 .navbar-toggler-icon {
