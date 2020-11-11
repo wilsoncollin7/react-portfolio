@@ -1,11 +1,23 @@
+.accordion {
+  background-color:  rgb(39, 39, 39);
+  margin-top: 30px;
+  color: white;
+  border-radius: 10px;
+}
+
 .aboutBtn {
   font-size: 1.25rem;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
+  color: white;
   padding-bottom: 30px;
 }
 
+.aboutBtn:hover, .aboutBtnLast:hover {
+  color: #4B9CD3;
+}
+
 .aboutItem {
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-align: justify;
   margin: auto;
   width: 60%;
@@ -13,5 +25,6 @@
 
 .aboutBtnLast {
   font-size: 1.25rem;
+  color: white;
   border-bottom: transparent;
 }
