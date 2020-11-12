@@ -6,7 +6,6 @@ import Container from "../components/Container/Container";
 import ContactCard from "../components/ContactCard/ContactCard";
 import Footer from "../components/Footer/Footer";
 
-
 function Contact() {
   return (
     <>

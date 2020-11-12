@@ -7,7 +7,6 @@ import Accordion from "../components/Accordion/Accordion";
 import Hobbies from "../components/Hobbies/Hobbies";
 import Footer from "../components/Footer/Footer";
 
-
 function About() {
   return (
     <>

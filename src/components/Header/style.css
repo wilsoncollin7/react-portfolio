@@ -19,6 +19,10 @@
   margin-bottom: 30px;
 }
 
+.notFound {
+  color: white;
+}
+
 @media screen and (max-width: 470px) {
   .homeHeaderDiv {
     width: 100%;

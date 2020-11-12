@@ -2,7 +2,6 @@ import React from 'react';
 // style
 import "./style.css"
 
-
 function ProjectsContainer(props) {
   return (
     <>

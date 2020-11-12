@@ -6,7 +6,7 @@ import Header from "../components/Header/Header";
 function NoMatch() {
   return (
     <Wrapper>
-      <Header title="404 NOT FOUND"/>
+      <Header className="notFound" title="404 NOT FOUND"/>
     </Wrapper>
   )
 }

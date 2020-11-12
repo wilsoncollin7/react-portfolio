@@ -7,7 +7,6 @@ import Footer from "../components/Footer/Footer";
 import ProjectsContainer from "../components/ProjectsContainer/ProjectsContainer";
 import projects from "../data/projects.json";
 
-
 function Projects() {
   return (
     <>
