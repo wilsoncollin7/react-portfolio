@@ -12,3 +12,11 @@
   border-radius: 10px;
   width: 80%;
 }
+
+.projectContainer {
+  background-color: rgba(210, 210, 210);
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  margin: auto;
+}
