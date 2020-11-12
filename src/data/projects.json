@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "name": "Earthlight Weather App",
+    "image": "earth.jpg",
+    "github": "https://github.com/wilsoncollin7/Earthlight",
+    "live": "https://wilsoncollin7.github.io/Earthlight/"
+  },
+  {
+    "id": 2,
+    "name": "Movie Search",
+    "image": "movie.png",
+    "github": "https://github.com/wilsoncollin7/project1",
+    "live": "https://wilsoncollin7.github.io/project1/"
+  },
+  {
+    "id": 3,
+    "name": "Password Generator",
+    "image": "generator.png",
+    "github": "https://github.com/wilsoncollin7/Password-Generator",
+    "live": "https://wilsoncollin7.github.io/Password-Generator/"
+  },
+  {
+    "id": 4,
+    "name": "Daily Planner",
+    "image": "planner.png",
+    "github": "https://github.com/wilsoncollin7/work-day-scheduler",
+    "live": "https://wilsoncollin7.github.io/work-day-scheduler/"
+  },
+  {
+    "id": 5,
+    "name": "Employee Directory",
+    "image": "directory.png",
+    "github": "https://github.com/wilsoncollin7/employee-directory",
+    "live": "https://directory-collin.herokuapp.com/"
+  },
+  {
+    "id": 6,
+    "name": "Eat-Da-Burger",
+    "image": "burger.png",
+    "github": "https://github.com/wilsoncollin7/eat-da-burger",
+    "live": "https://burger-express-collin.herokuapp.com/"
+  },
+  {
+    "id": 7,
+    "name": "EventSafe",
+    "image": "event.png",
+    "github": "https://github.com/wilsoncollin7/EventSafe",
+    "live": "https://project-2-team-3.herokuapp.com/"
+  },
+  {
+    "id": 8,
+    "name": "Offline Budget App",
+    "image": "offline.png",
+    "github": "https://github.com/wilsoncollin7/offline-budget-tracker",
+    "live": "https://expenses-tracker-offline.herokuapp.com/"
+  },
+  {
+    "id": 9,
+    "name": "Note Taking App",
+    "image": "note.png",
+    "github": "https://github.com/wilsoncollin7/note",
+    "live": "https://wilsoncollin7-note.herokuapp.com/"
+  },
+  {
+    "id": 10,
+    "name": "Team Builder",
+    "image": "team.png",
+    "github": "https://github.com/wilsoncollin7/team-builder",
+    "live": null
+  },
+  {
+    "id": 11,
+    "name": "README.md Generator",
+    "image": "readme.png",
+    "github": "https://github.com/wilsoncollin7/README-Generator",
+    "live": null
+  },
+  {
+    "id": 12,
+    "name": "Employee Management System",
+    "image": "employee.png",
+    "github": "https://github.com/wilsoncollin7/employee-management-system",
+    "live": null
+  },
+  {
+    "id": 13,
+    "name": "Fitness tracker",
+    "image": "fitness.png",
+    "github": "https://github.com/wilsoncollin7/fitness-tracker",
+    "live": "https://fitness-tracker-wilsoncollin7.herokuapp.com/?id=5f9074f7657ae30017bd0fa4"
+  }
+]

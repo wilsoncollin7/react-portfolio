@@ -4,6 +4,8 @@ import Wrapper from "../components/Wrapper/Wrapper";
 import Header from "../components/Header/Header";
 import Container from "../components/Container/Container";
 import Footer from "../components/Footer/Footer";
+import ProjectsContainer from "../components/ProjectsContainer/ProjectsContainer";
+import projects from "../data/projects.json";
 
 
 function Projects() {
@@ -12,6 +14,7 @@ function Projects() {
     <Wrapper>
       <Container className="projectContainer">
         <Header title="Projects"/>
+        <ProjectsContainer projects={projects}/>
       </Container>
     </Wrapper> 
     <Footer />
