@@ -13,7 +13,7 @@ function Projects() {
     <>
     <Wrapper>
       <Container className="projectContainer">
-        <Header title="Projects"/>
+        <Header className="projectHeader" title="Projects"/>
         <ProjectsContainer projects={projects}/>
       </Container>
     </Wrapper> 
