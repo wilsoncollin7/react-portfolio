@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import Resume from "../../assets/Collin Dean Wilson.pdf"
 // style
 import "./style.css"
@@ -19,16 +20,16 @@ function Nav() {
         <div className="collapse navbar-collapse">
             <ul className="nav justify-content-center">
                 <li className="nav-item">
-                    <a className="nav-link" href="/home">HOME</a>
+                    <Link className="nav-link" to="/home">HOME</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/projects">PROJECTS</a>
+                    <Link className="nav-link" to="/projects">PROJECTS</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/about">ABOUT</a>
+                    <Link className="nav-link" to="/about">ABOUT</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/contact" >CONTACT</a>
+                    <Link className="nav-link" to="/contact" >CONTACT</Link>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href={Resume} target="#" >RESUME</a>
