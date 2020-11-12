@@ -10,7 +10,7 @@ import Nav from "./components/Nav/Nav";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <>
         <Nav />
         <Switch>
