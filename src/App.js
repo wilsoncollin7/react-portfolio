@@ -19,10 +19,10 @@ function App() {
         <Nav />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/home" component={Home} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
+          <Route exact path="/react-portfolio/home" component={Home} />
+          <Route path="/react-portfolio/projects" component={Projects} />
+          <Route path="/react-portfolio/about" component={About} />
+          <Route path="/react-portfolio/contact" component={Contact} />
           <Route exact path="*" component={NoMatch} />
         </Switch>
       </>
