@@ -19,16 +19,16 @@ function Nav() {
         <div className="collapse navbar-collapse">
             <ul className="nav justify-content-center">
                 <li className="nav-item">
-                    <a className="nav-link" href="/react-portfolio/home">HOME</a>
+                    <a className="nav-link" href="/home">HOME</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/react-portfolio/projects">PROJECTS</a>
+                    <a className="nav-link" href="/projects">PROJECTS</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/react-portfolio/about">ABOUT</a>
+                    <a className="nav-link" href="/about">ABOUT</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/react-portfolio/contact" >CONTACT</a>
+                    <a className="nav-link" href="/contact" >CONTACT</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href={Resume} target="#" >RESUME</a>
