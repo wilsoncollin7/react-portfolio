@@ -3,6 +3,8 @@
 
   This is my portfolio created using react! :rocket:
 
+  Here is a live link to the app: [Portfolio](https://wilsoncollin7.github.io/react-portfolio/)
+
   <p align="center">
     <img src="./public/dev-photos/snip.JPG" width="800">
   </p>
