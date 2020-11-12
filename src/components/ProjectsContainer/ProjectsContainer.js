@@ -7,7 +7,7 @@ function ProjectsContainer(props) {
     <>
       {props.projects.map(item => (
         <div className="projectImgContainer projectTile">
-          <img className="projectImag" src={`/dev-photos/${item.image}`} alt={item.name}></img>
+          <img className="projectImag" src={`./dev-photos/${item.image}`} alt={item.name}></img>
           <div className="projectImgOverlay">
             <h5>{item.name}</h5>
             <a href={item.live} class="btn portBtn" target="#">Let's see it!</a>
