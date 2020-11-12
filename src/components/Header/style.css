@@ -18,3 +18,10 @@
 .projectHeader {
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: 470px) {
+  .homeHeaderDiv {
+    width: 100%;
+    border-radius: 0;
+  }
+}

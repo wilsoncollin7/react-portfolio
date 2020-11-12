@@ -9,7 +9,6 @@
 
 .projectImag {
   width: 500px;
-  height: 250;
 }
 
 .projectImgOverlay {
@@ -49,4 +48,26 @@
 .portGitBtn {
   color: #FFFCF2;
   background-color: #4B9CD3;
+}
+
+@media screen and (max-width: 600px) {
+  .projectImag {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .projectImag {
+    width: 300px;
+  }
+
+  .projectImgOverlay {
+    width: 100%;
+  }
+
+  .projectImgContainer {
+    display: block;
+    margin: auto;
+    width: 300px;
+  }
 }

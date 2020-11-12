@@ -28,3 +28,9 @@
   color: white;
   border-bottom: transparent;
 }
+
+@media screen and (max-width: 460px) {
+  .aboutItem {
+    width: 100%;
+  }
+}

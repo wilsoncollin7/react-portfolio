@@ -25,3 +25,10 @@
   width: 90%;
   margin: auto;
 }
+
+@media screen and (max-width: 460px) {
+  .projectContainer, .aboutContainer, .contactContainer {
+    width: 100%;
+    border-radius: 0;
+  }
+}

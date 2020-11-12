@@ -27,3 +27,15 @@ nav {
   color: white;
   padding: 10px;
 }
+
+@media screen and (max-width: 991px) {
+  nav {  
+    padding-bottom: 2%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  nav {
+    background-color: rgb(27, 26, 26);
+  }
+}
