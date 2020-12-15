@@ -9,7 +9,7 @@
     <img src="./public/dev-photos/snip.JPG" width="800">
   </p>
 
-  ## Table of Contents
+  ## Table of Contents 
 
   - [Installation](#installation)
   - [License](#license)
