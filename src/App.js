@@ -2,11 +2,6 @@ import React from 'react';
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 // import components
 import { Home, Projects, Contact, About, NoMatch} from "./pages";
-// import Home from "./pages/Home";
-// import Projects from "./pages/Projects";
-// import Contact from "./pages/Contact";
-// import About from "./pages/About";
-// import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav/Nav";
 
 class App extends React.Component {
